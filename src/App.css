@@ -1,38 +1,108 @@
-.App {
+.container {
+  
+  margin: 0 auto;
+  padding: 20px;
+  
+  
+ 
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.album-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .album-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.album-box {
+  border: 1px solid #bbb5b5;
+  border-radius:5px;
+  padding: 10px;
+  background-color:white;
+  transition: transform 0.3s ease;
+}
+.album-box:hover {
+  transform: scale(1.1);
+}
+
+
+.album-details {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.album-title {
+  font-family:Lucida Handwriting;
+  font-weight:Medium;
+  color: darkblue;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.album-actions {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"] {
+  padding: 8px;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.add-album {
+  display: flex;
+  align-items: center;
+  
+}
+.album-actions {
+  display: flex;
+  align-items: center;
+}
+
+.album-actions .delete-icon {
+  color: rgb(163, 30, 30);
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-left:10px;
+  cursor: pointer;
+}
+
+.album-actions input[type="text"] {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.fontfy{
+  font-family:monospace;
 }
