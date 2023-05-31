@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/albummanager/static/css/main.dae833d6.css",
+    "main.js": "/albummanager/static/js/main.fddf809a.js",
+    "static/js/787.67a7b4a4.chunk.js": "/albummanager/static/js/787.67a7b4a4.chunk.js",
+    "index.html": "/albummanager/index.html",
+    "main.dae833d6.css.map": "/albummanager/static/css/main.dae833d6.css.map",
+    "main.fddf809a.js.map": "/albummanager/static/js/main.fddf809a.js.map",
+    "787.67a7b4a4.chunk.js.map": "/albummanager/static/js/787.67a7b4a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dae833d6.css",
+    "static/js/main.fddf809a.js"
+  ]
+}
