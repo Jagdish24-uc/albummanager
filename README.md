@@ -21,10 +21,10 @@ The Album Manager uses the following API endpoint to fetch and manipulate album 
 
 1. Endpoint: https://jsonplaceholder.typicode.com/albums
 2. Methods:
-a. GET: Fetches the list of albums.
-b. POST: Adds a new album.
-c. PUT: Updates an existing album.
-d. DELETE: Deletes an album.
+1. GET: Fetches the list of albums.
+2. POST: Adds a new album.
+3. PUT: Updates an existing album.
+4. DELETE: Deletes an album.
 Please note that the API provided is a dummy API and does not persist data.
 
 ## Dependencies
