@@ -20,7 +20,7 @@ The Album Manager is a web application built using React that allows users to ma
 The Album Manager uses the following API endpoint to fetch and manipulate album data:
 
 1. Endpoint: https://jsonplaceholder.typicode.com/albums
-2. Methods:
+###### Methods:
 1. GET: Fetches the list of albums.
 2. POST: Adds a new album.
 3. PUT: Updates an existing album.
