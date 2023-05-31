@@ -36,6 +36,8 @@ The Album Manager project relies on the following dependencies:
   
 ## preview 
   ![album](https://github.com/Jagdish24-uc/albummanager/assets/71270068/612c6c79-5626-473b-952f-3c52380b31f9)
+  ![album2](https://github.com/Jagdish24-uc/albummanager/assets/71270068/def20831-4346-4c76-9b50-89daba3f5efc)
+
 
 
 ### Contributing
