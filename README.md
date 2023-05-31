@@ -33,6 +33,9 @@ The Album Manager project relies on the following dependencies:
 1. React: A JavaScript library for building user interfaces.
 2. FontAwesome: A library of scalable vector icons.
 3. CSS: Custom styling for the application.
+  
+## preview 
+  
 
 ### Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please create a new issue or submit a pull request.
