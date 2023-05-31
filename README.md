@@ -1,4 +1,4 @@
-### Album Manager
+# Album Manager
 The Album Manager is a web application built using React that allows users to manage a collection of albums. Users can view existing albums, add new albums, edit album titles, and delete albums.
 
 ## Features
